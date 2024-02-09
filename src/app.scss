@@ -1,12 +1,14 @@
-@import "~taro-ui/dist/style/components/icon.scss";
-@import "~taro-ui/dist/style/components/divider.scss";
-@import "~taro-ui/dist/style/components/activity-indicator.scss";
-@import "~taro-ui/dist/style/components/button.scss";
-@import "~taro-ui/dist/style/components/loading.scss";
-@import "~taro-ui/dist/style/components/float-layout.scss";
-@import "~taro-ui/dist/style/components/flex.scss";
-@import "~taro-ui/dist/style/components/slider.scss";
-@import "~taro-ui/dist/style/components/curtain.scss";
+// @import "~taro-ui/dist/style/components/icon.scss";
+// @import "~taro-ui/dist/style/components/divider.scss";
+// @import "~taro-ui/dist/style/components/activity-indicator.scss";
+// @import "~taro-ui/dist/style/components/button.scss";
+// @import "~taro-ui/dist/style/components/loading.scss";
+// @import "~taro-ui/dist/style/components/float-layout.scss";
+// @import "~taro-ui/dist/style/components/flex.scss";
+// @import "~taro-ui/dist/style/components/slider.scss";
+// @import "~taro-ui/dist/style/components/curtain.scss";
+@import '~taro-ui/dist/style/index.scss';
+@import "react-chat-elements/dist/main.css";
 
 page {
   height: 100%;

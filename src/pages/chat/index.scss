@@ -1,0 +1,40 @@
+.panel{
+    margin: .8rem 0 1.4rem
+}
+
+.panel_title {
+    position: relative;
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+    color: #6a6a77;
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.panel_title::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: .6rem;
+    top: 50%;
+    margin-top: -.5rem;
+    width: 2PX;
+    height: 1rem;
+    background-color: #6190e8;
+    -webkit-box-shadow: 0 .175rem .3rem 0 rgba(97,144,232,.2);
+    box-shadow: 0 .175rem .3rem 0 rgba(97,144,232,.2);
+    border-radius: 1PX
+}
+
+.panel_content {
+    padding: 0 .5rem
+}
+
+.panel_content.no-padding {
+    padding: 0
+}
+
+.chat-input {
+  margin-top: .8rem;
+}

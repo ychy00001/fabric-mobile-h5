@@ -4,7 +4,7 @@
 import Taro from "@tarojs/taro";
 import {intersectionWith, isEqual } from "lodash-es";
 import FontFaceObserver from "../widget/font-face-observer";
-import { iosFonts } from "../pages/index/twoItem/typeList";
+import { iosFonts } from "../pages/poster_editor/twoItem/typeList";
 import { getSystemInfo } from "./util";
 
 export const isSpecial = (n: number | string): boolean => {
